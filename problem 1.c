@@ -12,8 +12,8 @@ int main()
        m=d*sin(theta)/lambda;
        printf("%lf\n",m);
     }
-    else
+    else{
         printf("Out of the range.Please enter a valid number.\n");
-
+    }
     return 0;
 }
